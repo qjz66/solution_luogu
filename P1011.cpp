@@ -1,12 +1,10 @@
-//
-// Created by qjz on 2023/5/2.
-//
+
 #include "iostream"
 using namespace std;
 
 int main(){
     int a, n, m, x;
-    cin >> a>> n>> m>> x;//不能用cin>>a,n,m,x!!!!
+    cin >> a>> n>> m>> x;
     int sum[n], add[n -1];//sum 用来装在此站离开时的人数
     sum[0] = a;
     sum[1] = a;
